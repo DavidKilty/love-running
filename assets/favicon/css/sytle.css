@@ -56,7 +56,7 @@ h1 {font-family: 'Oswald', sans-serif;
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-/* Navbast styles with dropdown toggle */ 
+/* Navbar styles with dropdown toggle */ 
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -80,9 +80,10 @@ nav {
 
 /* Main Contnent */ 
 main {
-    background-color: lightblue
+    background-color: lightblue;
     /* Main element take up any surplus space */ 
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */ 
