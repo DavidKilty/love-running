@@ -18,17 +18,18 @@ body{
     flex-direction: column;
     /* Generic project styles*/
     color: #3a3a3a;
-    font-family: 'lato', sans serif; 
+    font-family: 'lato', sans-serif; 
 }
 
 /* Header */ 
 
 header{
-background-color: #ffffff
-padding: 0 1rem;
-z-index: 99;
-width: 100%;
-box-shadow: 0 2px 2px #3a3a3a; 
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a; 
 
 header a {
     text-decoration: none;
@@ -43,7 +44,7 @@ h1 {font-family: 'Oswald', sans-serif;
 }
 #menu {
     font-size: 110%;
-    letter letter-spacing: 4px;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 #menu > li {
@@ -52,17 +53,27 @@ h1 {font-family: 'Oswald', sans-serif;
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/* Navbast styles with dropdown toggle */ 
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
 
 /* Main Contnent */ 
-main{
-    background-color: rgb(195, 214, 220)
+main {
+    background-color: lightblue
     /* Main element take up any surplus space */ 
     flex: 1 0 auto;
 }
 
 /* Footer */ 
 footer{
-    background-color: lightblue
+    background-color: orange
 }
 
 .oswald-<uniquifier> {
